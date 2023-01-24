@@ -56,6 +56,15 @@ body {
     color: white;
 }
 
+.button3 {
+    background-color: #404EED;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    margin: auto;
+}
+
 .navitem {
     list-style: none;
     padding: 10px;
@@ -203,7 +212,15 @@ h2 {
     text-align: center;
     margin-top: -40px;
     line-height: 50px;
+    margin-bottom: 40px;
 }
+
+.MainLastButton {
+    margin: auto;
+    text-align: center;
+    height: 150px;
+}
+
 
 .footerBG {
     background-color: rgb(20, 20, 20);

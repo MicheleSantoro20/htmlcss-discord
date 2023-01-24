@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.margin {
+    width: 1170px;
+    margin: auto;
+}
+
+.headerTopBG {
+    background-color: aquamarine;
+    height: 60px;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.NavContainer {
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 60%;
+    justify-content: center;
+}
+
+.headerTopItem {
+    background-color: darkgoldenrod;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.navitem {
+    list-style: none;
+    padding: 10px;
+}
+
+.login {
+    text-align: right;
+}
+
+.headerBotBG{
+    background-color: blue;
+    height: 500px;
+}
+ .headerBot {
+    height: 500px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+ 
+ .HeaderBotBox {
+    background-color: rgb(248, 139, 234);
+    height: 350px;
+    width: 80%;
+ }
+
+ .section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.sectionImg {
+    height: 500px;
+    width: 60%;
+    background-color: #007fff;
+}
+
+.sectionTxt {
+    height: 500px;
+    width: 40%;
+    background-color: rgb(253, 148, 239);
+}
+
+.section2 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.graybg {
+    background-color: lightslategray;
+}
+
+.MainLastBox {
+    background-color: green;
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+}
+
+.MainLastSection {
+    height: 1000px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBG {
+    background-color: rgb(20, 20, 20);
+}
+
+.FooterSection {
+    height: 600px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.bigsubsection {
+    background-color: 	#FA8072;
+    height: 550px;
+    width: 35%;
+}
+
+.subsections {
+    background-color: rgb(76, 198, 214);
+    height: 550px;
+    width: calc((100%-35%) / 4);
+}
+
+.lastFooterSection {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.lastFooterBG {
+    background-color: rgb(20, 20, 20);
+    height: 100px;
+    padding-top: 50px;
+}
+
+.lastButton {
+    background-color: rgb(238, 155, 231);
+    padding: 5px;
+    border: 2px dashed black;
+}
+
+.lastLogo {
+    background-color: rgb(238, 155, 231);
+    padding: 5px;
+
+}
+
+.border {
+    border: 2px dashed black;
+}

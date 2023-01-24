@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
 
 .margin {
     width: 1170px;
@@ -10,36 +13,54 @@
 }
 
 .headerTopBG {
-    background-color: aquamarine;
-    height: 60px;
+    background-color: #404eed;
+    height: 80px;
+    
 }
 
 .headerTop {
     display: flex;
     align-items: center;
     height: 60px;
+    padding-top: 20px;
 }
 
 .NavContainer {
     display: flex;
-    background-color: darkgoldenrod;
     width: 60%;
     justify-content: center;
 }
 
 .headerTopItem {
-    background-color: darkgoldenrod;
     flex-grow: 1;
+    height: 100%;
+
+}
+
+.headerTopItem3 {
+    flex-grow: 1;
+    height: 70%;
+}
+.Button {
+    background-color: white;
     padding: 10px;
+    border-radius: 50px;
 }
 
 .navitem {
     list-style: none;
     padding: 10px;
+    color: white;
+    height: 70%;
+    font-size: 18px;
+}
+li {
+    margin: 10px;
 }
 
 .login {
     text-align: right;
+    line-height: 35px;
 }
 
 .headerBotBG{
